@@ -1,0 +1,18 @@
+# python
+print('alistamento do exército')
+ano = int(input('qual seu ano de nascimento?'))
+print('---------------------------------')
+idade = 2022 - ano
+ano1 = ano + 18
+menor = idade - 18
+maior = 18 - idade
+print('quem nasceu em {} tem {} anos em 2022 '.format(ano, idade))
+print('---------------------------------------')
+if 18 > idade:
+    print('ainda falta {} anos '.format(maior))
+    print('seu alistamento sera em {} '.format(ano1))
+elif idade > 18:
+    print('ja deveria ter se alistado a {} anos '.format(menor))
+    print('seu alistameno foi em {}'.format(ano1))
+else:
+    print('deve se alistar imediatamente ')

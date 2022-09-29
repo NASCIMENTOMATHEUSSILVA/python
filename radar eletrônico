@@ -1,0 +1,12 @@
+# python
+print('radar eletrônico a refrente ')
+print('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
+print('80Km/H')
+print('-=-=-=-=')
+km = float(input('qual é a velocidade atual do carro?'))
+print('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
+if km > 80:
+    print('MULTADO! voçê execedeu o limite de velocidade de 80km/h')
+    print('Voçê deve pagar uma multa de {}'.format((km - 80) * 7))
+else:
+    print('Tenha um bom dia! dirija com segurança!')

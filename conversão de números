@@ -1,0 +1,20 @@
+# python
+print('conversão de números')
+print('====================')
+num = int(input('digite um numero inteiro '))
+print('==========================')
+print('''escolha uma das bases para conversão:
+[ 1 ] converter para  BINÁRIO
+[ 2 ] converte para OCTAL  
+[ 3 ] converter para HEXADECIMAL''')
+print('=====================================')
+opção = int(input('escolha uma opção:'))
+print('====================')
+if opção == 1:
+    print('se o {} for convertido para BINÁRIO é igual a {}'.format(num,bin(num)[2:]))
+elif opção == 2:
+    print('se o {} for convertido para OCTAL é igual a {}'.format(num, oct(num)[2:]))
+elif opção ==  3:
+    print('se o {} for convertido para HEXADECIMAL é igual a {}'.format(num, hex(num)[2:]))
+else:
+    print('opção invalido  tente novamente!')

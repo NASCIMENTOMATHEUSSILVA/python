@@ -1,0 +1,16 @@
+# python
+print('-='*25)
+print('calculo para ver a nota semestral de um aluno ')
+print('-='*25)
+n1 = float(input('primeira nota'))
+print('-='*25)
+n2 = float(input('segunda nota '))
+print('-='*25)
+resut = (n1 + n2) / 2
+print('quem tirou {} e {} tem a média {}'.format(n1, n2, resut))
+if resut >= 7:
+    print('aluno aprovado')
+elif 5 <= resut:
+    print('recuperação ')
+else:
+    print(' reprovado ')

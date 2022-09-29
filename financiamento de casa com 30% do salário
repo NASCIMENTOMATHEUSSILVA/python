@@ -1,0 +1,18 @@
+# python
+print('-='*20)
+print('financiamento de casa')
+print('-='*20)
+casa = float(input('qual o valor da casa: R$'))
+print('-='*20)
+salario = float(input('qual o valor do salário?'))
+print('-='*20)
+anos = float(input('quantos anos quer pagar a casa?'))
+print('-='*20)
+prestação = casa / (anos * 12)
+minimo = salario * 30 / 100
+print('para pagar uma casa de R$ {:.2f} em {} anos '.format(casa, anos), end='')
+print('a prestação será de {:.2f}'.format(prestação))
+if prestação <= minimo:
+    print('emprestimo concebido ')
+else:
+    print('emprestimo negado ')

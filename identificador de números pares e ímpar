@@ -1,0 +1,11 @@
+# python
+import math
+print('identificador de numeros pares e impar')
+print('======================================')
+n1 = float(input('me diga um numero qualquer:'))
+print('=================================')
+resultado = n1 % 2
+if resultado == 0:   # se o resutado e igual a zero
+    print('o número {} é par'.format(n1))
+else:
+    print('o número {} é impar'.format(n1))

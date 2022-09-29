@@ -1,0 +1,13 @@
+# python
+print('vamos ver qual número é maior ')
+print('-----------------------------')
+primeiro = float(input('primeiro numero?'))
+print('------------------')
+segundo = float(input('segundo numero? '))
+print('------------------')
+if primeiro > segundo:
+    print('o primeiro numero é maior')
+elif segundo > primeiro:
+    print('o segundo numero é o maior')
+else:
+    print('os numeros são iguais')
